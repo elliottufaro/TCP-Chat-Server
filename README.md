@@ -1,4 +1,4 @@
-This project is a simple TCP message server/relay application that facilitates communication between two clients through a proxy server. The server filters and replaces specified bad words in the messages with good words before relaying the messages to the other client. This project includes both server and client implementations in Python.
+This project is a TCP message server/relay application that facilitates communication between two clients through a proxy server. The server filters and replaces specified bad words in the messages with good words before relaying the messages to the other client. This project includes both server and client implementations in Python.
 
 Server Implementation
 The server listens for incoming TCP connections from clients, accepts two connections, and then relays messages between the two clients. Before relaying, the server replaces any bad words found in the messages with specified good words. The server utilizes the select module to handle multiple connections efficiently.
